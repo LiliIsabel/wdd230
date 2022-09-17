@@ -1,0 +1,36 @@
+/*
+Stylesheet for index.html WDD 230 Assignment Portal
+*/
+
+/*colors
+ blue- #081472
+ white-#FFFFFF
+ black-#000000
+Lora for body text
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+header, footer{
+  background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
+  padding: 2em;
+  text-align: center;
+  color: hsl(300, 50%, 95%);
+}
+main{
+  text-align: center;
+}
+picutre{
+  max-width: 50%;
+}
+ul li{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin: 10px;
+}
+
+
+
+
+
