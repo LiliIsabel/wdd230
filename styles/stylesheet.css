@@ -2,23 +2,22 @@
 Stylesheet for index.html WDD 230 Assignment Portal
 */
 
-/*colors
- blue- #081472
- white-#FFFFFF
- black-#000000
-Lora for body text
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
 header, footer{
   background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
   padding: 2em;
   text-align: center;
   color: hsl(300, 50%, 95%);
+  
+}
+header{
+  font-family: 'Ms Madi', cursive;
 }
 main{
   text-align: center;
+  font-family: 'Lora', serif;
 }
 picutre{
   max-width: 50%;
