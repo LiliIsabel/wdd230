@@ -1,0 +1,64 @@
+/*
+Stylesheet for Design Principles Assignment
+
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif; (weight 400 and 600)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;600&display=swap');
+ 
+header, footer{
+    background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
+    padding: 2em;
+    text-align: center;
+    color: hsl(300, 50%, 95%);
+    display:block;
+    margin:auto;
+  }
+  main{
+    padding-top: 20px;
+    display: grid;
+    margin:auto;
+    grid-template-columns: auto auto auto;
+  }
+
+main h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
+    color: hsl(300, 50%, 95%);
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto;
+}
+main h3, main a{
+    padding: 0 0 0 20px;
+    display:block;
+    word-wrap: break-word;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  main p{
+    padding:25px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+img{
+  display:block;
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+.card1,.card2,.card3{
+   margin: 0 auto;
+    display:block;
+    width: 90%;
+    background:	#CBC3E3;
+    border: 1px solid #CBC3E3;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 15px;
+  }
+ 
