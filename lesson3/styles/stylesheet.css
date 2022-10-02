@@ -102,9 +102,14 @@ section,section3{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
  }
+ /*Media query*/
  @media screen and (max-width: 600px) {
     main{
         grid-template-columns: auto;
+    }
+    nav, nav div{
+      flex-direction: column;
+      padding: 10px;
     }
     
 }
