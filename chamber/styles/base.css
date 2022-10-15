@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 body{
     padding: 0.20em;
     background-color: #0A1045;
@@ -8,10 +12,19 @@ header, footer{
     align-items: center;
     color: #ffff;
     background-color:#0A1045;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1, h2, h3, p{
+    font-family:'Open Sans', sans-serif;
 }
 header h1{
     margin:0;
     font-size:10px;
+    
 }
 header div{
     font-size: 6px ;
@@ -80,7 +93,7 @@ main {
 #spotlight3{
     display:none;
 }
-.announcement{
+.meeting{
     background-color: #0A1045;
     color:#ffff;
     display:flex;
@@ -141,6 +154,6 @@ main {
     grid-row: 3;
 }
 #hero{
-    background-image: url("images/mountains.jpeg");
+    background-image: url("../images/mountains.jpeg");
     background-size: 100% 100%;
 }
