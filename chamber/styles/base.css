@@ -6,14 +6,13 @@ body{
     padding: 0.20em;
     background-color: #0A1045;
 }
-header, footer{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffff;
     background-color:#0A1045;
-    font-family: 'Ubuntu', sans-serif;
-    
+    font-family: 'Ubuntu', sans-serif;   
 }
 nav{
     font-family: 'Ubuntu', sans-serif;
@@ -30,7 +29,7 @@ header div{
     font-size: 6px ;
 }
 /*Navigation Items*/
-img{
+header img{
     width: 5%;
     margin: 5px;
 }
@@ -90,10 +89,13 @@ main {
     padding: 0px 0px 150px 0px;
     
 }
+#hero{
+    min-height:200px;
+}
 #spotlight3{
     display:none;
 }
-.meeting{
+#meeting{
     background-color: #0A1045;
     color:#ffff;
     display:flex;
@@ -115,7 +117,14 @@ main {
     align-items: center;
     margin:10px;
 }
+#hero button{
+    position: absolute;
+    opacity: 75%;
+    border-radius: 10px;
+    
+}
 
+/*
 .footer{
     display: grid;
   }
@@ -144,7 +153,7 @@ main {
     grid-row: 2;
   }
  
-.info{
+.copyinfo{
  grid-column: 2/5;
  grid-row: 4;
  display:flex;
@@ -152,8 +161,18 @@ main {
 .location{
     grid-column: 4;
     grid-row: 3;
+}*/
+.copyinfo{
+    margin-top: 1em;
+    border-top: 1px gray solid;
 }
 #hero{
     background-image: url("../images/mountains.jpeg");
     background-size: 100% 100%;
+}
+footer{
+    text-align: center;
+    color: #ffff;
+    background-color:#0A1045;
+    font-family: 'Ubuntu', sans-serif;   
 }

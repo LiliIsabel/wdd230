@@ -16,7 +16,7 @@
 <body>
     <div class="announcement"> <span id="meeting">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m." </span></div>
     <header>
-        <img src="images/logo.png" 
+        <img src="images/logo.webp" 
             alt="Mountain Valley Chamber of Commerce Logo." >  
         <section>
             <h1> Mountain Valley </h1>
@@ -44,9 +44,26 @@
     <main >
         <div class="section" id="hero">
             <p>Welcome to Mountain Valley </p>
+            <button onClick="window.location.href='#';"> Join the Chamber!</button>
         </div>
         <div class="section" id="event">Event</div>
-        <div class="section" id="weather">Weather</div>
+        <div class="section" id="weather">
+            <h2> Weather </h2>
+            <div class="tophalf"> 
+                <img> 
+                <p> <span id= "temp">45</span>F</p>
+            </div>
+            <div class="bottomhalf">
+                <p> Current Weather</p>
+                <p> Wind Speed:
+                    <span id="windspeed">4</span>
+                     mph
+                </p>
+                <p> Wind Chill
+                    <span id="windchill">  </span>
+                </p>
+            </div>
+        </div>
         <div class="section" id="news">News Release</div>
         <div class="section" id="join">Join</div>
         <div class="sl_container" id="spotlight">
@@ -56,22 +73,31 @@
         </div>
         
     </main>
-    <footer class="footer">
-        <img class="ftimage" src="images/logo.png" alt="Mountain Valley Chamber of Commerce Logo." >  
-        <h3 class="footerTitle"> Mountain Valley Chamber of Commerce</h3>
-        <p class="address"> 
-            2222 West 14400 South,
-            <br>
-             Bluffdale, UT 84065
-        </p>
-        <p class="email">mountainvalley@gmail.com</p>
-        <p class="phone">801.280.0595</p>
-        <p class="location">Location Map</p>
-        <div class="info">
+    <footer>
+        <div class="footer""> 
+            <div class ="ftlogo">
+                <img class="ftimage" src="images/logo.webp" alt="Mountain Valley Chamber of Commerce Logo." >  
+                <div class="title">
+                    <h3 class="footerTitle"> Mountain Valley Chamber of Commerce</h3>
+                    <p class="address"> 
+                        2222 West 14400 South,
+                        <br>
+                         Bluffdale, UT 84065
+                    </p>
+                </div>
+            </div>
+            <div class="contact"> 
+                <p class="email">mountainvalley@gmail.com</p>
+                <p class="phone">801.280.0595</p>
+                <p class="location">Location Map</p> 
+            </div>          
+        </div>
+        <div class="copyinfo">
             <p id="year"></p>
             <p id="lastUpdated"></p>
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
