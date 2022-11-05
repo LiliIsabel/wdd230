@@ -21,3 +21,4 @@ if(currentDate == 1 || currentDate == 2){
 } else{
     document.querySelector('#meeting').style.display="none";
 }
+
