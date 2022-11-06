@@ -146,13 +146,15 @@ footer{
 .container{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
    
 }
 #discoveryimg{
     position:relative;
     text-align: center;
+
 }
+
 .img-text {
     position: absolute;
     color: black;

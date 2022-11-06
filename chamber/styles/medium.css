@@ -58,5 +58,11 @@
         display:block;
         margin:0px;
     }
+    #discoveryimg{
+        transition:transform .2s;
+    }
+    #discoveryimg:hover{
+        transform: scale(1.1);
+    }
    
 }
