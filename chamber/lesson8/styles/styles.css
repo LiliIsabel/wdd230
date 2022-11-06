@@ -1,0 +1,37 @@
+:root {
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+body{
+    display:flex;
+}
+table{
+    margin: 10px auto;
+    width: 90%;
+    border: 1pt solid #161032;
+    border-collapse: collapse;
+}
+
+tr:first-child th, .highlight {
+	background-color:#161032 ;
+	color: #FAFF81;
+}
+caption{
+    padding: 10px;
+    caption-side:bottom;
+    color:black;   
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+th, td{
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+th{
+    background-color: #FAFF81;
+}
+td{
+    text-align:center;
+}
