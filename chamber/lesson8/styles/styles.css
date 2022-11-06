@@ -1,11 +1,9 @@
 :root {
 	--zebra: hsl(0, 0%, 93%, 1);
 }
-body{
-    display:flex;
-}
+
 table{
-    margin: 10px auto;
+    margin: 10% auto;
     width: 90%;
     border: 1pt solid #161032;
     border-collapse: collapse;
