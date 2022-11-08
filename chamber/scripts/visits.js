@@ -7,3 +7,4 @@ if (numVisits !== 0) {
     document.querySelector('#visits').textContent = "Welcome!";
 }
 numVisits++;
+localStorage.setItem("visits-ls", numVisits);
