@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(67, 25, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+img {
+    width: auto;
+    max-width: 325px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(67, 25, 25);
+    color:white;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+
+
+h3, p {
+    font-family: 'Bitter', serif;
+    margin: 10px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+h1 {
+    font-family: 'Zen Antique', serif;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(67, 25, 25);
+    color:white;
+    width: 100%;
+    height: 60px;
+    
+}
+
+section:hover, img {
+    background-color: rgb(67, 25, 25);
+    color:white;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+
+}
