@@ -1,0 +1,89 @@
+{
+    "business": [
+      {
+        "businessname": "Staker Parson Companies",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 1,
+        "website": "https://stakerparson.com/",
+        "imageurl": "images/stakerlogo.svg",
+        "level": "Membership Level 1"
+      },
+      {
+        "businessname": "Iron Mountain Chiropractic",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 2,
+        "website": "https://www.ironmtnchiro.com/",
+        "imageurl": "images/IronMtlogo.webp",
+        "level": "Membership Level 2"
+        
+      },
+      {
+        "businessname": "Isabellas Experience Catering",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 3,
+        "website": "https://isabellascatering.com/",
+        "imageurl": "images/isabellaslogo.png",
+        "level": "Membership Level 3"
+        
+      },
+      {
+        "businessname": "Hello Story",
+        "staddress": "6371 West 10830 North Highland, Utah",
+        "phonenumber": "(801) 885-5597",
+        "order": 4,
+        "website": "https://hirehellostory.com/",
+        "imageurl": "images/HelloStory.png",
+        "level": "Membership Level 1"
+      }, 
+      {
+        "businessname": "Intermountain Tire Pros",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 5,
+        "website": "https://www.intermountaintirepros.com/",
+        "imageurl": "images/IntertireLogo.png",
+        "level": "Membership Level 2"
+       
+      },
+      {
+        "businessname": "My City Journals",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 6,
+        "website": "https://www.valleyjournals.com/",
+        "imageurl": "images/CityJournalLogo.webp",
+        "level": "Membership Level 3"
+      },
+      {
+        "businessname": "Nothing Bundt Cakes",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 7,
+        "website": "https://www.nothingbundtcakes.com/bakery/0008-sandy-ut",
+        "imageurl": "images/bundtlogo.webp",
+        "level": "Membership Level 3"
+       
+      },
+      {
+        "businessname": "Stampin' Up",
+        "staddress": "12907 South 3600 West Riverton, Utah",
+        "phonenumber": "(801) 257-0727",
+        "order": 8,
+        "website": "https://www.stampinup.com/",
+        "imageurl": "images/stamplogo.png",
+        "level": "Membership Level 1"
+      },
+      {
+        "businessname": "Monarch Family Counseling",
+        "staddress": "2350 South 1900 West, Ogden Utah",
+        "phonenumber": "(801) 731-1111",
+        "order": 9,
+        "website": "https://monarchfamilycounseling.com/",
+        "imageurl": "images/Monarchlogo.png",
+        "level": "Membership Level 3"
+      }      
+    ]
+  }

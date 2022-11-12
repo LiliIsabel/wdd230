@@ -34,7 +34,8 @@ header img{
     margin: 5px;
 }
 img.social{
-    width: 50%
+    width: 1.5em;
+    height: auto;
 }
 nav,nav a{
     display:flex;
@@ -165,4 +166,99 @@ footer{
     background-color: rgba(255,255,255,.9);
     border: 2px solid #0A1045;
   }
- 
+  
+  .directory-container{
+    color: #0A1045;
+    border: 3.5px solid #6A8EAE;
+    background-color: white;
+    display: grid;
+    justify-items:center;
+    justify-content: space-evenly;
+  }
+  .directory-button{
+    border: none;
+    background-color: transparent;
+    
+  }
+ .directory-container h2{
+    margin-bottom: 0;
+  }
+  #grid.directory-button{
+    margin-right: 25px;
+  }
+
+  /*delete after testing*/
+  /*@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.list section {
+	display: flex;
+	align-items: space-between;
+}
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+.list section img {
+    display: none;
+}
+.list section:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+main section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+main section img {
+    width: auto;
+    max-height: 100px;
+}
+
+
+/*h2 {
+    font-family: 'Bitter', serif;
+}*/
+
+
+
+h4, h3, p {
+    /*font-family: 'Bitter', serif;*/
+    margin: 10px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+main section h1 {
+    /*font-family: 'Zen Antique', serif;*/
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+    width: 100%;
+    height: 60px;
+    
+}
+
+main section:hover  {
+    border: 6px solid #6A8EAE;
+}
+.directory-button:hover  {
+    border: 6px solid #6A8EAE;
+    background: #b9d5ee;
+}
