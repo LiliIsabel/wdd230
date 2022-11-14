@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ 
+ 
+header, footer{
+    background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
+    padding: 1em;
+    text-align: center;
+    color: hsl(300, 50%, 95%);
+    display:block;
+    margin:auto;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+  }
+  nav div{
+    flex: 1 1 auto;
+    margin-right: 0.9em;
+  }
+  nav a:hover {
+	background-color:hsl(300, 50%, 95%);
+	padding: 20px;
+}
+  main {
+    margin:auto;
+  }
+
+main h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
+    color: hsl(300, 50%, 95%);
+    text-align:center;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto;
+}
+  main p{
+    padding:25px;
+    text-align: left;
+    word-break: break-word;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+video{
+    display:block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+section,section3{
+   margin: 0 auto;
+    display:block;
+    width: 90%;
+    background:	#CBC3E3;
+    border: 1px solid #CBC3E3;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+  }
+  .typecolor{
+    justify-content: center;
+  }
+/*
+ span1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+ }
+ span2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+ }
+ span3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+ }
+ span4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+ }
+ span5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+ }
+ span6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+ }*/
+ /*Media query*/
+ @media screen and (max-width: 600px) {
+    video{
+        width:90%
+    }
+    
+}
+
