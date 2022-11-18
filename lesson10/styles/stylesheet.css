@@ -32,9 +32,8 @@ header, footer{
     margin:auto;
   }
 
-main h2{
+h2{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
     background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
     color: hsl(300, 50%, 95%);
     text-align:center;
@@ -42,23 +41,12 @@ main h2{
     border-radius: 15px 15px 0 0;
     margin: 0 auto;
 }
-  main p{
-    padding:25px;
-    text-align: left;
-    word-break: break-word;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-  }
 
-video{
-    display:block;
-    margin: auto;
-    margin-bottom: 25px;
-}
+
 section,section3{
    margin: 0 auto;
     display:block;
-    width: 90%;
+    width: 50%;
     background:	#CBC3E3;
     border: 1px solid #CBC3E3;
     border-radius: 15px 15px 15px 15px;
@@ -67,7 +55,13 @@ section,section3{
   .typecolor{
     justify-content: center;
   }
-
+.text{
+    text-align:center;
+    padding:20px;
+}
+figcaption{
+    font-size:12px;
+}
  /*Media query*/
  @media screen and (max-width: 600px) {
     video{
