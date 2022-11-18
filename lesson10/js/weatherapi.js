@@ -32,9 +32,11 @@ function displayResults(data){
     currentTemp.textContent = data.main.temp.toFixed(0);
     let desc = capitalize(data.weather[0].description);
     description.textContent = desc;
-    captionDesc.textContent = `Icon of current weather conditions at Fairbanks, Alaska which is: ${desc}`;
+    captionDesc.textContent = `${desc}`;
     weatherIcon.src= `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
-    weatherIcon.alt = `${captionDesc.textContent}`;
+    weatherIcon.setAttribute('alt', desc);
+
+
 }
 
 
