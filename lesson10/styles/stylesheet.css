@@ -64,8 +64,11 @@ figcaption{
 }
  /*Media query*/
  @media screen and (max-width: 600px) {
-    video{
+    section{
         width:90%
+    }
+    h2{
+      font-size: 90%;
     }
     
 }
