@@ -187,9 +187,6 @@ footer{
     margin-right: 25px;
   }
 
-  /*delete after testing*/
-  /*@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');*/
 
 .grid {
     display: grid;
@@ -231,22 +228,26 @@ main section img {
     max-height: 100px;
 }
 
-
-/*h2 {
-    font-family: 'Bitter', serif;
-}*/
-
-
+#weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tophalf{
+    display:flex;
+    align-items: center;
+}
 
 h4, h3, p {
-    /*font-family: 'Bitter', serif;*/
+  
     margin: 10px;
     font-weight: 400;
     font-size: medium;
 }
 
 main section h1 {
-    /*font-family: 'Zen Antique', serif;*/
     text-align: center;
     padding-top: 15px;
     color:white;
