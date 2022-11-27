@@ -322,7 +322,7 @@ form{
 #benefits{
     display:none;
 }
-#red{
+.red{
 color:red;
 }
 textarea{
