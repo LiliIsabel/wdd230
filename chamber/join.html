@@ -43,13 +43,46 @@
     </header>
     <div class="dateBanner"> <span id="date"> </span></div>
     <main>
-      <h1> Title of the page</h1>
+      <h1 class="joinBanner"> Join the Chamber of Commerce Today!</h1>
       <form method="get" action="thanks.html">
         <fieldset>
-            <legend>Applicant Personal Information</legend>
-            <label class=""
+            <legend>Applicant Personal and Business Information</legend>
+            <label class="top">First Name <span id="red">*</span><input type="text" name="firstName" required></label>
+            <label class="top">Last Name <span id="red">*</span><input type="text" name="lastName" required></label>
+            <label class="top">Email <input type="text" name="email" placeholder="example@email.com"></label>
+            <label class="top">Phone Number <span id="red">*</span><input type="text" name="tel" required></label>
+            <label class="top">Business Name <span id="red">*</span><input type="text" name="business" required></label>
+            <label class="top">Business Description <span id="red">*</span></label>
+                <textarea id="description" maxlength="140"></textarea>   
         </fieldset>
+        <fieldset>
+            <legend>Preferred Membership Level<span id="red">*</span></legend>
+            <label class="level"><input type="radio" name="membership">Non-Profit Membership <span id="price">(No Fee)</span></label>
+            <label class="level"><input type="radio" name="membership">Bronze Membership <span id="price">($500)</span></label>
+            <label class="level"><input type="radio" name="membership">Silver Membership <span id="price">($700)</span></label>
+            <label class="level"><input type="radio" name="membership">Gold Membership <span id="price">($1000)</span></label>
+        </fieldset>
+        <input type="submit" class="submitbtn" value="Become a Member Today!"> 
       </form>
+      <div class="section">
+        <h3> Membership Level Benfits</h3>
+        <h4 class = "levelTitles"> Non-Profit Membership</h4>
+        <ul>
+          <li></li>  
+        </ul>
+        <h4 class = "levelTitles"> Bronze Membership</h4>
+        <ul>
+          <li></li>  
+        </ul>
+        <h4 class = "levelTitles"> Silver Membership</h4>
+        <ul>
+          <li></li>  
+        </ul>
+        <h4 class = "levelTitles"> Gold Membership</h4>
+        <ul>
+          <li></li>  
+        </ul>
+      </div>
     </main>
     <footer>
         <div class="footer""> 

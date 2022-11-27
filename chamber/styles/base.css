@@ -116,7 +116,15 @@ main {
     display:flex;
     justify-content:space-around;
     align-items: center;
-    margin:10px;
+    margin:20px;
+}
+.joinBanner{
+    padding: 5px;
+    max-width: 500px;
+    border: #6A8EAE double 10px;
+    text-align: center;
+    justify-self: center;
+    background-color: white;
 }
 #discover{
     font-size: 20px;
@@ -159,7 +167,7 @@ footer{
 .img-text {
     position: absolute;
     color: black;
-    width: 99%;
+    padding:2px;
     height:35%;
     bottom:0px;
     left:0px;
@@ -264,4 +272,53 @@ main section:hover  {
 .directory-button:hover  {
     border: 6px solid #6A8EAE;
     background: #b9d5ee;
+}
+fieldset{
+    background-color:white;
+    border:#6A8EAE solid 4px;
+    max-width:500px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+form label.top input{
+    width: 100%;
+    padding: .5rem;
+    margin-bottom:10px;
+    border: #6A8EAE solid 2px;
+}
+form label.level input{
+    margin:20px 0 20px 0;
+}
+.submitbtn{
+    background-color: #6A8EAE;
+    color: white;
+    border: #6A8EAE solid 4px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2rem;
+}
+.submitbtn:hover{
+    background-color: white;
+    color: #6A8EAE;
+    border: white solid 4px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2rem;
+}
+legend{
+    background: white;
+    border: #6A8EAE solid 2px;
+    padding:1em;
+    border-radius: 2rem;
+}
+#red{
+color:red;
+}
+textarea{
+    display:block;
+    border: #6A8EAE solid 2px;
+}
+*{
+  -webkit-box-sizing:border-box;
 }
