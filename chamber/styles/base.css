@@ -158,7 +158,7 @@ footer{
     justify-content: center;
    
 }
-#discoveryimg{
+#discoveryimg,#discoveryimg1,#discoveryimg2,#discoveryimg3,#discoveryimg4,#discoveryimg5 {
     position:relative;
     text-align: center;
 

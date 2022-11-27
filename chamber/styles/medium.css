@@ -58,10 +58,10 @@
         display:block;
         margin:0px;
     }
-    #discoveryimg{
+    #discoveryimg,#discoveryimg1,#discoveryimg2,#discoveryimg3,#discoveryimg4,#discoveryimg5{
         transition:transform .2s;
     }
-    #discoveryimg:hover{
+    #discoveryimg:hover, #discoveryimg1:hover,#discoveryimg2:hover,#discoveryimg3:hover,#discoveryimg4:hover,#discoveryimg5:hover{
         transform: scale(1.1);
     }
     #benefits{
