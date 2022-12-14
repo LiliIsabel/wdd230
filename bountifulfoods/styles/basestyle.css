@@ -1,4 +1,7 @@
-/*fonts*/
+/*fonts
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&display=swap');
 /*colors
@@ -45,7 +48,10 @@ nav ul li a, nav ul{
     color:#0A1045;
     background-color: #ffff; 
 }*/
-
+/* Logo Image*/
+header img{
+    height:90%
+}
 .social{
     border-radius: 100%;
     width: 42px;
@@ -61,8 +67,11 @@ nav ul li a, nav ul{
 }
 .title{
  position: absolute;
- bottom: 60%;
- right:20%;
+ bottom: 24%;
+ right:19%;
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 2em;
+ color: #ffff;;
 }
 .freshButton{
  position: absolute;
