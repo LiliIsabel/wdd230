@@ -39,13 +39,19 @@
     }
     
     #spotlight{
-        display:block;
+        display:grid;
         grid-row: 1/4;
         grid-column: 4;
+        justify-items:center;
         
     }
-    #spotlight3{
+    #spotlight3, #spotlight1, #spotlight2{
         display:grid;
+        justify-items:center;
+        background-color: #0A1045;
+        color: white;
+        width: 350px;
+        height: 250px;
     }
     .joinMain{
         display:grid;

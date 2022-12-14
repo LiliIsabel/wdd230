@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Home Site</title>
+    <meta name="description" content="Home page for the Bountiful Site">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/basestyle.css"> 
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">  
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" 
+            alt="Bountiful Foods logo." >  
+        
+        <nav>
+            <!--<button id="hamburgerBtn"><span>&#9776;</span></button>-->
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+            
+        </nav>
+           
+    </header>
+    <main >
+       
+        <div class="container" id="banner">
+            <img src="images/orangespink.png" alt="image of oranges" >
+            <div class=title> <h1> Bountiful Foods </h1> </div>
+            <div class="freshButton">
+                <button onClick="window.location.href='fresh.html';"> Customize your drink!</button>
+            </div>
+        </div>
+        <div class="sectionContainer">
+            <div class="section" id="image">Image</div>
+            <div class="section" id="contact">Business Contact</div>
+            <div class="section" id="image2">Image</div>
+        </div>
+        <div class="weatherContainer" >
+           <div class="wTitle"><h2> Weather </h2></div> 
+            <div class="tophalf"> 
+                <img alt="" id="weather-icon">
+                <p> <span id="current-temp"></span> &deg;F</p>
+            </div>
+            <div class="bottomhalf">
+                <p><span id="currently"></span></p>
+                <p> Wind Speed: <span id="windspeed"></span>mph</p>
+                <p> Wind Chill: <span id="windchill">  </span></p>
+            </div>
+        </div>
+        <div class="Summary" >
+            
+             </div>
+         </div>
+    </main>
+    <footer>
+        <div class="footer"> 
+            <div class ="ftlogo">
+                <img class="ftimage" src="images/logo.webp" alt="logo." >  
+                <div class="title">
+                    <h3 class="footerTitle"> </h3>
+                    <p class="address"> 
+                    </p>
+                </div>
+            </div>
+            <div class="contact"> 
+                <p class="email"></p>
+                <p class="phone"></p>
+                <p class="location"></p> 
+            </div>          
+        </div>
+        <div class="copyinfo">
+            <p id="year"></p>
+            <p id="lastUpdated"></p>
+           <p> Weather by: <a href="https://openweathermap.org/"> Open Weather</a></p>
+        </div>
+        <a href="https://www.facebook.com/">
+            <img class="social" src="images/facebooklogo.png" alt="Facebook Logo">
+        </a>
+        <a href="https://twitter.com/">
+            <img class="social" src="images/twitterlogo.png" alt="Twitter Logo" >
+         </a>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
