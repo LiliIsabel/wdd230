@@ -200,17 +200,22 @@ form{
 }
 fieldset{
     background-color:white;
-    border: #BA1200 solid 4px;
+    border: #72a276 solid 4px;
     max-width:500px;
     display:flex;
     flex-direction: column;
     margin: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
 }
-form label.top input{
-    width: 100%;
+form label.top input, #description{
+    width: 95%;
     padding: .5rem;
     margin-bottom:10px;
-    border: #FF9F1C solid 2px;
+    border: #72a276 solid 2px;
+}
+label, textarea {
+    padding:10px;
 }
 form label.level input{
     margin:20px 0 20px 0;
@@ -224,12 +229,12 @@ form label.level input{
     border-radius: 2rem;
 }
 .submitbtn:hover{
-    background-color: #FF9F1C;
+    background-color: white;
     border: 72a276 solid 4px;
     font-weight: bold;
     padding: 18px;
     border-radius: 2rem;
-    
+    color:#72a276;
 }
 .red{
     color:#BA1200 ;

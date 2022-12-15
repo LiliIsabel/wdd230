@@ -8,20 +8,32 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const fruits = jsonObject;
-    fruits.forEach(displaybusiness);  
+    fruits.forEach(displayFruits);  
   });
 
   function example(element){
     console.log(element);
   }
+  
 
-  function displayFruits(fruits){
-    let card = document.createElement('section');
-    let portrait = document.createElement('img');
-    let h2 = document.createElement('h2');
-    let h3 = document.createElement('h3');
-    let h4 = document.createElement('h4');
-    let a = document.createElement('a');
-    let p = document.createElement('p');
+  function displayFruits(fruits) {
+    let choice1 = document.createElement('option');
+    let choice2 = document.createElement('option');
+    let choice3 = document.createElement('option');
+
+    choice1.setAttribute('value', fruits.name);
+    choice1.text = fruits.name;
+    choice2.setAttribute('value', fruits.name);
+    choice2.text = fruits.name;
+    choice3.setAttribute('value', fruits.name);
+    choice3.text = fruits.name;
     
-  }
+    const firstBox = document.getElementById('choice1');
+    const secondBox = document.getElementById('choice2');
+    const thirdBox = document.getElementById('choice3');
+    firstBox.appendChild(choice1);
+    secondBox.appendChild(choice2);
+    thirdBox.appendChild(choice3);
+}
+    
+
