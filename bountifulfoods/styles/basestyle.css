@@ -2,7 +2,7 @@
 font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Cormorant Garamond', serif;
 */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&display=swap');
 /*colors
 red: #BA1200
@@ -13,6 +13,16 @@ green:#72a276
 */
 body{
     margin:0;
+}
+p, h3, h4{
+    font-family: 'Cormorant Garamond', serif;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
 }
 header, footer{
     height: 40px;
@@ -67,9 +77,8 @@ header img{
 }
 .title{
  position: absolute;
- bottom: 24%;
+ bottom: 30%;
  right:19%;
- font-family: 'Cormorant Garamond', serif;
  font-size: 2em;
  color: #ffff;;
 }
@@ -86,8 +95,13 @@ header img{
     margin: 0 20px 0;
 }
 .section{
- border: 2px solid black;
  margin: -4px;
+}
+/*contact information section*/
+#contact{
+    height: 241px;
+    font-size: smaller;
+    line-height: 1;
 }
 
 /*weather section*/
