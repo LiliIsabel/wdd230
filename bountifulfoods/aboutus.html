@@ -22,44 +22,84 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
+                <a href="https://www.facebook.com/">
+                    <img class="social" src="images/facebooklogo.png" alt="Facebook Logo">
+                </a>
+                <a href="https://twitter.com/">
+                    <img class="social" src="images/twitterlogo.png" alt="Twitter Logo" >
+                 </a>
             </ul>
             
         </nav>
            
     </header>
-    <main >
-       
-      
-    </main>
-    <footer>
-        <div class="footer"> 
-            <div class ="ftlogo">
-                <img class="ftimage" src="images/logo.webp" alt="logo." >  
-                <div class="title">
-                    <h3 class="footerTitle"> </h3>
-                    <p class="address"> 
-                    </p>
+    <main>
+        <div class="container" id="banner">
+            <img src="images/orangespink.png" alt="image of oranges" >
+            <div class=title> <h1> About Us</h1> </div>
+        </div>
+        <div class="aboutMain">
+            <div class="history">
+                <div class="info">
+                    <h2> Our Mission</h2> 
+                        <h4>
+                            We deliver fresh fruit and produce directly from the hands of our local farmers and sometimes international suppliers,
+                            to your kitchen table. 
+                        </h4>
+                        <h4>
+                            In 2014, Rita Harley was frustrated at the fact that to eat healthy you had to making more money or risk not being able to pay your bills 
+                            so she set out to find a solution. In 2015 she decided to be the solution and founded Bountiful Foods! Hoping to be able to reach as many people 
+                            as possible, Bountiful Foods opened a location in the heart of Carlsbad, California to welcome in locals and tourists but also caters through food trucks to 
+                            the entirity of south California. So if you're looking for fresh organic fruit, produce and smoothies come visit us today!
+                        </h4>
+
                 </div>
+                <div class="info">
+                    <h2> Our Home</h2>
+                       <h4>
+                        Carlsbad, California is a gorgous little coastal city near San Diego, California. In the 1880s it started to grow and flourish into what can 
+                        be seen today. The land thrived on agricultural development of avocados, olives and citrus friuts! 
+                       </h4> 
+                       <h4>
+                        Today this beautiful city is home to a population of 114,746 (<a href="/wiki/2020_United_States_census" title="2020 United States census">2020 census</a>) and about as many tourists!
+                        The climate is mild, boasting of 263 sunny days on average!
+
+                        <a href="https://en.wikipedia.org/wiki/Carlsbad,_California" title="Carlsbad, California Wikipedia Page">Learn More</a>
+                       </h4>
+                </div>  
             </div>
-            <div class="contact"> 
-                <p class="email"></p>
-                <p class="phone"></p>
-                <p class="location"></p> 
-            </div>          
+
+            <div class="img_container" id="spotlight">
+                <div class="img_section" id="spotlight1">
+                    <img class="bCard" src="images/grapes.png" alt="Isabellas Shop Logo" >
+                </div>
+                <div class="img_section" id="spotlight2">
+                    <img class="bCard" src="images/smoothie.png" alt="Monarch Family Counseling Logo" >
+                </div>
+                <div class="img_section" id="spotlight3">
+                    <img class="bCard" src="images/fruitbowl.png" alt="Nothing Bundt Cakes Shop Logo" >
+                 </div>
+            </div>
         </div>
-        <div class="copyinfo">
-            <p id="year"></p>
-            <p id="lastUpdated"></p>
-           <p> Weather by: <a href="https://openweathermap.org/"> Open Weather</a></p>
-        </div>
-        <a href="https://www.facebook.com/">
-            <img class="social" src="images/facebooklogo.png" alt="Facebook Logo">
-        </a>
-        <a href="https://twitter.com/">
-            <img class="social" src="images/twitterlogo.png" alt="Twitter Logo" >
-         </a>
+    </main>
+    <footer>      
+            <div class="fttop">
+                <img  src="images/BF.png" alt="Bountiful Foods logo."> 
+                <h4 class="email"> E: bountifulfoods.ca@gmail.com </h4>
+                <h4>P: 415.834.5402</h4>
+                <h4 class="location"> Location: 
+                    <a href="https://goo.gl/maps/umyEsYHRoqNgGgDJ8">
+                    <img class="social" src="images/locationicon.png" alt="Red location pin icon">
+                </a></h4>  
+            </div>              
+            <div class="copyinfo">                 
+                <p> Weather by: <a href="https://openweathermap.org/"> Open Weather</a></p>
+                <h4 id="year"></h4>
+                <p id="lastUpdated"></p>
+            </div>
     </footer>
+    
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

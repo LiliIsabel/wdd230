@@ -24,7 +24,7 @@ h1{
 h2{
     font-family: 'Barlow Condensed', sans-serif;
 }
-header, footer{
+header {
     height: 40px;
     display: flex;
     align-items: center;
@@ -150,9 +150,32 @@ header img{
 }
 /*footer info*/
 footer{
-    position:relative;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px 0; 
 }
-.ftlogo img{
-    position:absolute;
-    top:-6px;
+.fttop, .copyinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*About us Page*/
+
+.aboutMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-color: rgba(255, 159, 28, 0.3);
+}
+.history{
+   
+    width: 300px;
+}
+
+.img_container{
+    background-color: rgba(186, 18, 0, 0.3);
+}
+.img_section, .info{
+    margin:6px;
 }
