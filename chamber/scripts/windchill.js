@@ -37,9 +37,9 @@ function displayResults(data){
     currentTemp.textContent = data.main.temp.toFixed(0);
     let desc = capitalize(data.weather[0].description);
     description.textContent = desc;
-    weatherIcon.src= `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let src = weatherIcon.src= `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     weatherIcon.setAttribute('alt', desc);
-    weatherIcon.setAttribute('src', weatherIcon.src);
+    weatherIcon.setAttribute('src', src);
     
     wspeed.textContent = data.wind.speed.toFixed(0);
     
