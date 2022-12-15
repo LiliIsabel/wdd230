@@ -4,6 +4,24 @@
         padding: .5rem 1rem;
     }
 
-    
 
+    /*section container*/
+    .sectionContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 20px 0;
+    }
+    .section{
+        margin: -4px;
+    }
+    /*contact information section*/
+    #contact{
+        height: 241px;
+        font-size: smaller;
+        line-height: 1;
+    }
+    #image2{
+        display:flex;
+    }
 }

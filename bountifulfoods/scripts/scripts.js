@@ -13,12 +13,4 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-const banner =document.querySelector('#date').textContent =` ${date} ` ;
-
-
-if(currentDate == 1 || currentDate == 2){
-    document.querySelector('#meeting') ="block" ;
-} else{
-    document.querySelector('#meeting').style.display="none";
-}
 

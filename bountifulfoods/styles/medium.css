@@ -14,5 +14,70 @@
         right:19%;
         font-size: 2em;
         color: #ffff;
-       }
+    }
+
+    .sectionContainer{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        margin: 0 20px 0;
+        justify-items: center;
+    }
+
+    
+    /*weather section*/
+    .weatherContainer{
+        background-color: rgba(255, 159, 28, 0.3);
+        margin-bottom: 15px;
+    }
+    .wCard{
+        border: 2px solid white;
+        width: 30%;
+        margin-left: 10%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tophalf p{
+        font-size:20px;
+        margin:0;
+    }
+    .bottomhalf{
+        font-weight: bold;
+    }
+    /*summary section*/
+    .summary{
+        background-color: rgba(186, 18, 0, 0.3);
+        margin-bottom: 15px;
+    }
+    .sCard{
+        border: 2px solid white;
+        width: 35%;
+        margin-left: 55%;
+        isplay:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fttop, .copyinfo{
+        flex-direction: row;
+    }
+
+    .aboutMain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        background-color: rgba(255, 159, 28, 0.3);
+    }
+    .history{
+       
+        width: 300px;
+    }
+    
+    .img_container{
+        display:grid;
+        background-color: rgba(186, 18, 0, 0.3);
+    }
+    .img_section, .info{
+        margin:6px;
+    }
 }
