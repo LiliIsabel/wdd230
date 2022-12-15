@@ -54,10 +54,14 @@ nav ul li a, nav ul{
        text-decoration: none;
        /*color: #ffff;*/
    }
-/*nav ul li a:hover{
-    color:#0A1045;
-    background-color: #ffff; 
-}*/
+nav ul li a:visited{
+    color:#FF9F1C;
+
+}
+nav ul li a:hover{
+    background-color:#FF9F1C;
+    color: #ffff; 
+}
 
 /* Logo Image*/
 header img{
@@ -66,7 +70,7 @@ header img{
 
 .social{
     border-radius: 100%;
-    width: 42px;
+    width: 19px;
     margin: 0 4px;
     height: auto;
 }
@@ -84,10 +88,14 @@ header img{
  font-size: 2em;
  color: #ffff;;
 }
-.freshButton{
+.freshButton button{
  position: absolute;
  top:60%;
  right:20%;
+ border-radius: 10px;
+ border: 1px solid white;
+ background-color: #72a276;
+ color:white;
 }
 
 /*section container*/
