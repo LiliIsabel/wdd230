@@ -118,6 +118,12 @@ header img{
     align-items: center;
     
 }
+,tophalf{
+    font-size:20px;
+}
+.bottomhalf{
+    font-weight: bold;
+}
 /*summary section*/
 .summary{
     background-color: rgba(186, 18, 0, 0.3);
