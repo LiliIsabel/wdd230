@@ -58,10 +58,12 @@ nav ul li a, nav ul{
     color:#0A1045;
     background-color: #ffff; 
 }*/
+
 /* Logo Image*/
 header img{
     height:90%
 }
+
 .social{
     border-radius: 100%;
     width: 42px;
@@ -110,7 +112,7 @@ header img{
     margin-bottom: 15px;
 }
 .wCard{
-    border: 1px solid black;
+    border: 2px solid white;
     width: 30%;
     margin-left: 10%;
     display:flex;
@@ -118,8 +120,9 @@ header img{
     align-items: center;
     
 }
-,tophalf{
+.tophalf p{
     font-size:20px;
+    margin:0;
 }
 .bottomhalf{
     font-weight: bold;
@@ -130,10 +133,18 @@ header img{
     margin-bottom: 15px;
 }
 .sCard{
-    border: 1px solid black;
-    width: 30%;
-    margin-left: 60%;
+    border: 2px solid white;
+    width: 35%;
+    margin-left: 55%;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+/*footer info*/
+footer{
+    position:relative;
+}
+.ftlogo img{
+    position:absolute;
+    top:-6px;
 }
