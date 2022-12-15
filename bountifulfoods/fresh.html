@@ -17,19 +17,18 @@
         <img src="images/BF.png" alt="Bountiful Foods logo." >  
         
         <nav>
-            <!--<button id="hamburgerBtn"><span>&#9776;</span></button>-->
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
             <ul id="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
-                <a href="https://www.facebook.com/">
+                <li><a href="https://www.facebook.com/">
                     <img class="social" src="images/facebooklogo.png" alt="Facebook Logo">
-                </a>
-                <a href="https://twitter.com/">
+                </a> </li>
+                <li><a href="https://twitter.com/">
                     <img class="social" src="images/twitterlogo.png" alt="Twitter Logo" >
-                 </a>
+                 </a></li>
             </ul>
-            
         </nav>
            
     </header>
@@ -38,7 +37,20 @@
             <img src="images/orangespink.png" alt="image of oranges" >
             <div class=title> <h1> Mix Your Drink</h1> </div>
         </div>
-       
+      <form method="get" action="thanks.html">
+        <fieldset>
+            <label class="top">First Name <span class="red">*</span><input type="text" name="firstName" required></label>
+            <label class="top">Email <input type="text" name="email" placeholder="example@email.com"></label>
+            <label class="top">Phone Number <span class="red">*</span><input type="text" name="tel" required></label>
+            <select name="first" id="number1"></select>
+            <select name="second" id="number2"></select>
+            <select name="third" id="number3"></select>
+            <label class="top">Special Instructions </label>
+                <textarea id="description" maxlength="140"></textarea>   
+            <input type="submit" class="submitbtn" value="Get Your Drink!"> 
+        </fieldset>
+        
+      </form>
     </main>
     <footer>      
             <div class="fttop">

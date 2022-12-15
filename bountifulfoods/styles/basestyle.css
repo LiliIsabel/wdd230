@@ -190,3 +190,47 @@ footer{
     display:none;
 }
 
+/*Fresh Page*/
+form{
+    background-color: rgba(255, 159, 28, 0.3);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset{
+    background-color:white;
+    border: #BA1200 solid 4px;
+    max-width:500px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+form label.top input{
+    width: 100%;
+    padding: .5rem;
+    margin-bottom:10px;
+    border: #FF9F1C solid 2px;
+}
+form label.level input{
+    margin:20px 0 20px 0;
+}
+.submitbtn{
+    background-color: #72a276;
+    color: white;
+    border: #72a276 solid 2px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2rem;
+}
+.submitbtn:hover{
+    background-color: #FF9F1C;
+    border: 72a276 solid 4px;
+    font-weight: bold;
+    padding: 18px;
+    border-radius: 2rem;
+    
+}
+.red{
+    color:#BA1200 ;
+    }
