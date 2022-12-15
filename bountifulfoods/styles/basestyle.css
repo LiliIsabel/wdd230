@@ -36,23 +36,29 @@ nav, nav a{
     display:flex;
     align-items:center;
   }
-/*nav ul{
-    list-style-type: none;
-    /*display:none;
-    padding:0;
-    margin:0;
-   }
+
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border:none;
+    font-size: 2rem;
+    color: #FF9F1C;
+}
+nav ul{
+ list-style-type: none;
+ display:none;
+ padding:0;
+ margin:0;
+}
 nav ul.open{
-       display:block;
-   } */
+    display:flex;
+}
    
-nav ul li a, nav ul{
+nav ul li a, nav ul,nav ul.open{
        list-style-type: none;
-       display:flex;
        justify-items: center;
        padding: .8rem 2vw;
        text-decoration: none;
-       /*color: #ffff;*/
    }
 nav ul li a:visited{
     color:#FF9F1C;
@@ -62,6 +68,8 @@ nav ul li a:hover{
     background-color:#FF9F1C;
     color: #ffff; 
 }
+#hamburgerBtn span:nth-child(1){display:block;}
+#hamburgerBtn span:nth-child(2){display:none;}
 
 /* Logo Image*/
 header img{
@@ -85,8 +93,8 @@ header img{
  position: absolute;
  bottom: 30%;
  right:19%;
- font-size: 2em;
- color: #ffff;;
+ font-size: 1em;
+ color: #ffff;
 }
 .freshButton button{
  position: absolute;
@@ -159,6 +167,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#year{
+    font-weight: bold;
 }
 /*About us Page*/
 
